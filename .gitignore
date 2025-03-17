@@ -1,3 +1,6 @@
 .DS_Store
 *.vcfg
 game*.cfg
+server*.cfg
+autoexec.cfg
+perftest.cfg
