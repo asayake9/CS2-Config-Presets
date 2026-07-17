@@ -6,3 +6,5 @@ autoexec.cfg
 perftest.cfg
 f5eautoexec.cfg
 f5enostickjump.cfg
+/pwa_userconfig*.cfg
+/devonly
