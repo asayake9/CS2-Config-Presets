@@ -1,2 +1,9 @@
-
 .DS_Store
+*.vcfg
+game*.cfg
+server*.cfg
+autoexec.cfg
+perftest.cfg
+f5eautoexec.cfg
+f5enostickjump.cfg
+/devonly
