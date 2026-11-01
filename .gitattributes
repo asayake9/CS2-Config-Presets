@@ -1,2 +1,19 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# 换行符策略：仓库内统一按 LF 存储（diff / blame / PR 干净），检出时按文件类型还原
+* text=auto eol=lf
+
+# CS2 读取的文本配置：检出为 CRLF（Windows 原生，记事本打开也不会挤成一行）
+*.cfg  text eol=crlf
+*.vcfg text eol=crlf
+*.txt  text eol=crlf
+*.html text eol=crlf
+*.bat  text eol=crlf
+
+# 仓库自身与文档：LF
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+*.md           text eol=lf
+
+# 图片按二进制处理，不做任何换行转换
+*.png binary
+*.jpg binary
+*.gif binary
